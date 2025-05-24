@@ -9,7 +9,7 @@ This repository contains the code and some of the data for my term paper dedicat
 
 ```pip install numpy spacy sklearn tqdm```
 
-```python -m spacy.ru.download ru_core_news_sm```
+```python -m spacy download ru_core_news_sm```
 
 3. MST-Clustering should be installed with
 
