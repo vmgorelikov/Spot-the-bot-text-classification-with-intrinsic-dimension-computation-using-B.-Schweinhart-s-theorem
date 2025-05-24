@@ -4,12 +4,19 @@ This repository contains the code and some of the data for my term paper.
 
 # How to use
 1. Download the files from this repository.
+   
 2. Make sure you have all of the required modules installed.
+
 ```pip install numpy spacy sklearn tqdm```
+
 ```python -m spacy.en.download ru_core_news_sm```
+
 3. MST-Clustering should be installed with
+
 ```pip install git+https://github.com/whiteroomlz/mst-clustering.git```
+
 4. See code in question if something goes wrong.
+   
 5. Run ```python classifier.py <the text you want to classify> [the model to be used] [the dictionary to be used]```
 
 # Files by sections of the paper
