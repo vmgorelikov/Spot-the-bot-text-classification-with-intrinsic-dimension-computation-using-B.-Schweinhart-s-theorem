@@ -20,7 +20,7 @@ This repository contains the code and some of the data for my term paper.
 5. Run ```python classifier.py <the text you would like to classify> [the model to be used] [the dictionary to be used]```
 
 # Files by sections of the paper
-## Sections 4, 5.
+## Sections 4, 5
 
 ```bambara_processor.py``` — the processor for Bambara texts.
 
