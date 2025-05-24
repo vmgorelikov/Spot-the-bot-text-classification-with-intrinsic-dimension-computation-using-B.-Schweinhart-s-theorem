@@ -17,7 +17,7 @@ This repository contains the code and some of the data for my term paper.
 
 4. See code in question if something goes wrong.
    
-5. Run ```python classifier.py <the text you would like to classify> [the model to be used] [the dictionary to be used]```
+5. Run ```python classifier.py <the text file with the text you would like to classify> [the model to be used] [the dictionary to be used]```. The text file must be properly formatted, with no newline characters occuring within the sentences in it. The model must be a joblib dump of a trained classifier. The dictionary must be a NumPy pickle dump of a ```dict``` containing ```numpy.ndarray``` vector representations for each word.
 
 # Files by sections of the paper
 ## Sections 4, 5
